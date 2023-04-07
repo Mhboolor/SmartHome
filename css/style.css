@@ -27,6 +27,7 @@ a{
 .header-line-1{
     position: absolute;
     left: 233px;
+    z-index: 1;
 }
 .header-line-2{
     position: absolute;
@@ -53,6 +54,7 @@ a{
 }
 .menu__item{
     margin: 0 25px;
+    z-index: 99;
 }
 .menu__link{
     font-size: 18px;
